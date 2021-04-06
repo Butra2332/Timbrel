@@ -1,0 +1,15 @@
+@import "library/font";
+@import "library/bootstrap-reboot.min";
+@import "library/bootstrap-grid.min";
+@import "button";
+@import "header";
+@import "slide";
+@import "work";
+
+
+* {font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+}

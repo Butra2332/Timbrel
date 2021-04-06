@@ -1,0 +1,52 @@
+.slide {
+    height: 535px;
+    background: url(../img/bg.png) center (center/cover) no-repeat;
+    position: relative;
+    padding: 132px 0 52px 0;
+    .slide__women {
+        position: absolute;
+        top: 4px;
+        left: -100px;
+    }
+    .slider__block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 445px;
+        width: 556px;
+    }
+    .slide__title {
+        color: #ffffff;
+        font-size: 38px;
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    .slide__subtitle {
+        margin-top: 15px;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 22px;
+        text-align: left;
+    }
+    .form {
+        input {
+            width: 332px;
+            height: 49px;
+            border: 3px solid rgba(0, 0, 0, 0.15);
+            background-color: #ffffff;
+            border-radius: 3px;
+            padding: 0 16px;
+        }
+    }
+    .slide__icon {
+        margin-top: 87px;
+    }
+}

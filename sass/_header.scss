@@ -1,0 +1,94 @@
+.header {
+    height: 170px;
+    padding: 6px 0 24px 0;
+    display: flex;
+    .header-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 0px;
+        li {
+            list-style-type: none;
+        }
+        .header-menu__link {
+            margin-bottom: 6px;
+            width: 997px;
+            height: 12px;
+            color: #3b3b3b;
+            font-size: 12px;
+            font-weight: bold;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 22px;
+            text-align: left;
+            text-transform: uppercase;
+            text-decoration: none;
+            &:hover {
+                color: #913d88;
+            }
+        }
+    }
+    .sabheader {
+        display: flex;
+        justify-content: space-between;
+        .sabheader__content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .subheader__block {
+            display: flex;
+            justify-content: space-between;
+            width: 200px;
+        }
+        .sabheader__icon {
+            width: 43px;
+            height: 43px;
+            margin-right: 10px;
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        .subheader__text {
+            color: #3b3b3b;
+            font-size: 13px;
+            font-weight: 300;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 16px;
+            text-align: left;
+        }
+        .subheader__phone {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            .subheader__time {
+                color: #838383;
+                font-size: 13px;
+                font-weight: 300;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 28px;
+                text-align: right;
+            }
+            .subheader__tel {
+                margin-top: -5px;
+                color: #913d88;;
+                font-size: 23px;
+                font-weight: bold;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                text-align: right;
+                text-transform: uppercase;
+                text-decoration: none;
+                span {
+                    color: #3b3b3b;
+                }
+            }
+        }
+        
+    }
+
+}
